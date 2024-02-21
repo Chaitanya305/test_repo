@@ -1,0 +1,11 @@
+name: to check disl space
+
+on:
+  push :
+    branches: ["master"]   
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Disk Space
+        run: df -h
