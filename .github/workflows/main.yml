@@ -12,4 +12,4 @@ jobs:
       - name: check
         run: ls -lrth
       - name: to check space
-        run: du -hm | sort -rn |  head -n 10
+        run: du -hm \ | sort -rn |  head -n 10
