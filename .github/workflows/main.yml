@@ -13,3 +13,5 @@ jobs:
         run: ls -lrth
       - name: to check space
         run: du -hm \ | sort -rn |  head -n 10
+      - name: checkinf docker images
+        run: docker images
