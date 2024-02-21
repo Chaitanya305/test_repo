@@ -2,7 +2,7 @@ name: to check disl space
 
 on:
   push :
-    branches: ["master"]   
+    branches: ["main"]   
 jobs:
   my_job:
     runs-on: ubuntu-latest
