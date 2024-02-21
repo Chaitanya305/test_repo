@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Check Disk Space
         run: df -h
+      - name: check
+        run: ls -lrth
+      - name: to check space
+        run: du -hm | sort -rn |  head -n 10
